@@ -1,0 +1,211 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.popup {
+		width: 100%;
+		height: 100vh;
+		font-size: 15px;
+	}
+	input[type="text"], input[type="password"]{
+	width: 260px;
+}
+	.white_circle{
+		position: relative;
+		text-align: center;
+	}
+	.circle-one{
+	width: 100px; height: 100px;
+	position: absolute;
+	top: 175px;
+	left: 200px;
+	background: rgba(255, 255, 255, .5); 
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px; 
+	border-radius: 50px;	
+}
+.circle-two{
+	width: 85px; height: 85px;
+	position: absolute;
+	top: 145px;
+	left: 255px;
+	background: rgba(255, 255, 255, .5); 
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px; 
+	border-radius: 50px;	
+}
+.circle-three{
+	width: 70px; height: 70px;
+	position: absolute;
+	top: 195px;
+	left: 270px;
+	background: rgba(255, 255, 255, .5); 
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px; 
+	border-radius: 50px;	
+}
+.wrap{
+	padding-top: 20px;
+}
+.sub_text{
+	text-align: center;
+}
+.footer_text{
+	padding-top: 0;
+	text-align: center;
+}
+.item_wrap{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+}
+
+@media only screen and (max-width : 540px) {
+	.white_circle{
+		position: relative;
+		text-align: center;
+	}
+	.circle-one{
+	width: 100px; height: 100px;
+	position: absolute;
+	top: 175px;
+	left: 200px;
+	background: rgba(255, 255, 255, .5); 
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px; 
+	border-radius: 50px;	
+}
+.circle-two{
+	width: 85px; height: 85px;
+	position: absolute;
+	top: 145px;
+	left: 255px;
+	background: rgba(255, 255, 255, .5); 
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px; 
+	border-radius: 50px;	
+}
+.circle-three{
+	width: 70px; height: 70px;
+	position: absolute;
+	top: 195px;
+	left: 270px;
+	background: rgba(255, 255, 255, .5); 
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px; 
+	border-radius: 50px;	
+}
+.wrap{
+	padding-top: 20px;
+}
+.sub_text{
+	text-align: center;
+}
+.footer_text{
+	padding-top: 0;
+	text-align: center;
+}
+.item_wrap{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.circle-one{
+	width: 100px; height: 100px;
+	position: absolute;
+	top: 175px;
+	left: 100px;
+	background: rgba(255, 255, 255, .5); 
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px; 
+	border-radius: 50px;	
+}
+.circle-two{
+	width: 85px; height: 85px;
+	position: absolute;
+	top: 145px;
+	left: 155px;
+	background: rgba(255, 255, 255, .5); 
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px; 
+	border-radius: 50px;	
+}
+.circle-three{
+	width: 70px; height: 70px;
+	position: absolute;
+	top: 195px;
+	left: 170px;
+	background: rgba(255, 255, 255, .5); 
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px; 
+	border-radius: 50px;	
+}
+.menu_text h1{
+	font-family: 'Kaushan Script';
+	padding-top: 415px;
+	font-size: 56px;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+.menu_text p{
+	font-size: 22px;
+}
+.about-title{
+	margin-bottom: 20px;
+}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	.white_circle{
+		display: none;
+	}
+	.menu_text h1{
+		padding-top: 250px;
+		font-size: 45px;
+	}
+	.menu_text p{
+		font-size: 16px;
+	}
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
